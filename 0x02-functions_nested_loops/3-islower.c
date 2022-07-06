@@ -9,7 +9,8 @@
 int _islower(int c)
 {
 char d;
-for (d = 97; d = 122; d++)
+
+for (d = 97; d <= 122; d++)
 if (d == c)
 return (1);
 return (0);
