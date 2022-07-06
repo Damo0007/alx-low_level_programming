@@ -5,17 +5,18 @@
  */
 void print_alphabet_x10(void)
 {
-char c;
-int i;
+char c = 97;
+int i = 0;
 
-for (c = 97; c <= 122; c++)
+while (i <= 10)
 {
-_putchar(c);
+	while (c <= 122)
+	{
+		_putchar(c);
+	c++;
+	}
 }
 
-for (i = 0; i <= 10; i++)
-{
-_putchar(i);
-}
 _putchar('\n');
+i++;
 }
