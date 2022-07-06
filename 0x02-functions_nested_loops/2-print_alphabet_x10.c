@@ -1,16 +1,28 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints lowercase alphabets_x10
+ * print_alphabet_x10 - Entry point
+ *
+ * Return: Void (Nothing to return)
  *
  */
+
+
+
 void print_alphabet_x10(void)
+
 {
-char c;
+
 int i;
-for (c = 97; c <= 122; c++)
+
+for (i = 0; i < 10; i++)
+
 {
-_putchar(c);
-}
-for (i = 0; i = 10; i++)
+
+char ch;
+
+for (ch = 97; ch <= 122; ch++)
+_putchar(ch);
 _putchar('\n');
+}
+
 }
