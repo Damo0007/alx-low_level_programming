@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	long int x = 612852475743;
+	long int x = 6128524757143;
 	long int py;
 
 	for (py = 2; py < x; py++)
