@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_triangle - check
  * @size : integer type
@@ -15,14 +16,12 @@ void print_triangle(int size)
 		{
 			_putchar(' ');
 			ii++;
-
 		}
 		ii = 0;
 		while (ii < i)
 		{
 			_putchar('#');
 			ii++;
-
 		}
 		_putchar('\n');
 		i++;
