@@ -5,7 +5,7 @@
  * @s: segment to return bytes from
  * @accept: the bytes to include
  *
- * Return: the number of bytes in the initial segment of s which consist only of bytes from @accept
+ * Return: the number of bytes in the initial segment of s which consist bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
