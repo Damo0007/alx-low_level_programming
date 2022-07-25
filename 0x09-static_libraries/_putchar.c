@@ -1,22 +1,11 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * _memset - fills memory with a constant byte
- *
- * @s: pointer to memory area to fill
- * @n: the number of bytes to fill
- * @b: constant byte
- *
- * Return: a pointer to the memory area @s
+ * _putchar - writes c character in the stdout
+ * @c: its the character to be printed
+ * Return: On success 1
+ * On error, return -1 and set error appropriately
  */
-char *_memset(char *s, char b, unsigned int n)
+int _putchar(char c)
 {
-	unsigned int i;
-
-	for (i = 0; i < n; i++)
-	{
-		s[i] = b;
-
-	}
-
-	return (s);
+	return (write(1, &c, 1));
 }
